@@ -7,6 +7,7 @@ import android.view.View
 import android.view.View.VISIBLE
 import android.widget.Button
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.view.isVisible
 import androidx.core.view.size
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -19,6 +20,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
 
         val recyclerView = findViewById<RecyclerView>(R.id.recyclerView)
         val recyclerView2 = findViewById<RecyclerView>(R.id.recyclerView2)
