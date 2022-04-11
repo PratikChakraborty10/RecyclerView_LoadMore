@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rect_shape">
+
+        <TextView
+            android:id="@+id/userId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="10dp"
+            tools:text="10"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:paddingTop="5dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:paddingBottom="5dp"
+            android:background="#eb4034"/>
+
+
+
+        <TextView
+            android:id="@+id/id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/userId"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:paddingBottom="5dp"
+            android:paddingEnd="20dp"
+            android:paddingStart="20dp"
+            android:paddingTop="5dp"
+            android:background="@drawable/curv_shape"
+            tools:text="1691"/>
+
+        <TextView
+            android:id="@+id/title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/id"
+            android:layout_marginTop="16dp"
+            android:paddingStart="22dp"
+            android:paddingEnd="22dp"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="Arto impedit terra sordeo talio cribro minus acervus consequuntur consequatur caste venustas."/>
+
+        <TextView
+            android:id="@+id/body_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/title_tv"
+            android:layout_marginTop="10dp"
+            android:paddingStart="22dp"
+            android:paddingEnd="22dp"
+            android:paddingBottom="20dp"
+            android:text="olestiae derideo cetera. Surgo cibo tenus. Venio dignissimos ambulo. Comedo absum vomito. Reprehenderit absconditus defero. Quos cultellus suffoco. Creber tergum tabesco. Sono architecto curis. Sophismata coniuratio inflammatio. Cohibeo tenetur aut. Officiis teneo viriliter. Textus accipio concedo. Ulciscor advenio theca. Casus anser deinde. Ars suus color. Aegrotatio venio surgo. Demulceo auditor itaque. Tumultus nostrum culpo. Est paens crux. Accommodo possimus velum."/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
